@@ -13,11 +13,21 @@
 #import "cocos2d.h"
 
 // HelloWorldLayer
-@interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
-{
+@interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>{
+    CCTMXTiledMap *theMap;
+    CCTMXLayer *bglayer;
+    CCSprite *robot;
+    CCTMXLayer *stLayer;
 }
+
+@property(nonatomic, retain) CCTMXTiledMap *theMap;
+@property(nonatomic, retain) CCTMXLayer *bglayer;
+@property(nonatomic, retain) CCSprite *robot;
+@property(nonatomic, retain) CCTMXLayer *stLayer;
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
-
+-(void)setPlayerPosition:(CGPoint)position;
+-(void)setCenterOfScreen:(CGPoint) position;
+-(CGPoint)tileCoordForPosition:(CGPoint)position;
 @end

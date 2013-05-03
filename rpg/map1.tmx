@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="newBoston" tilewidth="32" tileheight="32">
+  <image source="tile2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="specialTiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1kGqwjAQBuBQCqKoG908delG9AiCR9Ab6AEEj/DeDfTIptBADanNTGcyE5+LHzGx4f9IDC2MMQUgV6X5BEOsQ7ojhUO6H4VDuhuFw5+T7olxhOake0IdbXPSPbGO3P4rMXvh5iaI9THPcDnc2NTmx2YUmUX9TEpHzHjVaQhYe5jYEfvbNsevzV9g3ZQOSHzHLeBwYzk5XO42jzf7MVDQPcYRSg774e6AQ/15tDl5Y1odxRvH2eaSiQN6rq5fh4hjaTOus8rYMfYi4Zh9gKMylBk6mp2dococsMYE4aB8b3edfQPGsjGv7+XbhmFnXt/rFwyGrkAszey9UJ4hSH8/mhxYgyZHHwPGwuGgMEAtXwe/4b85fEMfB3V/CQeXgdtRGv7+EAvWUAa+S1r6OlIZOB1cWfd0aDBg9kPbXrTtA4eD09K1NtWZSuEIrQ+5c6UNpQmfj65u2s5UyAFNV+9UdxWnIWW4HKkt1N21OCA9NTme3zi3mg==
+  </data>
+ </layer>
+ <objectgroup name="oj" width="50" height="50">
+  <object name="startPoint" x="111" y="1528">
+   <ellipse/>
+  </object>
+  <object x="75" y="1532" width="9">
+   <ellipse/>
+  </object>
+  <object x="81" y="1528" width="13">
+   <ellipse/>
+  </object>
+  <object x="108" y="1536" width="45">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="mnt" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2M0NwjAMhuEcUE/dADaAYzcoG8D+sxBLtYisQgpxfmx9j/RdUV6FXjKFECbM/aSRzvKP07ZePZpkS8smssYtcffC88u1amFLMq2GVh2pko5cT82WFP+nSjs+9Ugt7uKp0CFb9tTs0GqQHbXuRHooN7Da30lLNe6lh1wHsdBBch3EQgf51sAsdPzCSwfz0iF56SAaHee4edtF4fd6mcWsQsdYvHRcw7vh1vksAAAAANpy7yijO/IWNLojb3MWeGhgXhq8dAAAgB0v8T8RKg==
+  </data>
+ </layer>
+ <layer name="st" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlEEOwCAIBP3/r+zLeuqF1FgUKZCZxItRlkkrvbXWWeWXJFIvFlRw+MNJ5mR0ecvI5jHKOImXg8d78fRY8dHc8fqnLOqe9hjVnO196Ut73tLDsi8tJ7/5Sl87MyKix6XMkfejeOxQxUPWyu4ha2b3sMiI6PHkaM9H9NCCRyzwiMdsbu/MdQAAAAAAAAAAgKrcNDN/DQ==
+  </data>
+ </layer>
+</map>
