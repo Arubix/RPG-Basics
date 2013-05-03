@@ -133,11 +133,6 @@
 		83DA492916BE14A300534086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA492816BE14A300534086 /* AppDelegate.m */; };
 		83DA492C16BE14A300534086 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA492B16BE14A300534086 /* HelloWorldLayer.m */; };
 		83DA492F16BE14A300534086 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA492E16BE14A300534086 /* IntroLayer.m */; };
-		83DA493816BE169200534086 /* tileMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA493716BE169200534086 /* tileMap.png */; };
-		83DA493A16BE174C00534086 /* tile2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA493916BE174B00534086 /* tile2.png */; };
-		83DA493E16BE280100534086 /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA493D16BE280100534086 /* robot.png */; };
-		83EA353016C058300077E98D /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 83EA352F16C058300077E98D /* map1.tmx */; };
-		83EA353216C0584E0077E98D /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EA353116C0584E0077E98D /* meta_tiles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -403,11 +398,6 @@
 		83DA492B16BE14A300534086 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		83DA492D16BE14A300534086 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		83DA492E16BE14A300534086 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		83DA493716BE169200534086 /* tileMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileMap.png; sourceTree = "<group>"; };
-		83DA493916BE174B00534086 /* tile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile2.png; sourceTree = "<group>"; };
-		83DA493D16BE280100534086 /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
-		83EA352F16C058300077E98D /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = "<group>"; };
-		83EA353116C0584E0077E98D /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,11 +472,6 @@
 		83DA47B016BE14A000534086 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				83EA352F16C058300077E98D /* map1.tmx */,
-				83EA353116C0584E0077E98D /* meta_tiles.png */,
-				83DA493D16BE280100534086 /* robot.png */,
-				83DA493716BE169200534086 /* tileMap.png */,
-				83DA493916BE174B00534086 /* tile2.png */,
 				83DA47B116BE14A000534086 /* Default.png */,
 				83DA47B316BE14A000534086 /* Default-Landscape~ipad.png */,
 				83DA47B516BE14A000534086 /* fps_images.png */,
@@ -910,11 +895,6 @@
 				83DA47C616BE14A100534086 /* Icon@2x.png in Resources */,
 				83DA47C916BE14A100534086 /* iTunesArtwork in Resources */,
 				83DA490716BE14A300534086 /* ChangeLog in Resources */,
-				83DA493816BE169200534086 /* tileMap.png in Resources */,
-				83DA493A16BE174C00534086 /* tile2.png in Resources */,
-				83DA493E16BE280100534086 /* robot.png in Resources */,
-				83EA353016C058300077E98D /* map1.tmx in Resources */,
-				83EA353216C0584E0077E98D /* meta_tiles.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1132,7 +1112,6 @@
 				83DA493416BE14A300534086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
